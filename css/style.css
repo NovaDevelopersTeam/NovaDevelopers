@@ -209,18 +209,26 @@ main {
     height: 2000px;
 }
 
-.main_foot_first_article::after {
+.hr_first {
     display: block;
-    content: "";
-    width: 80%;
+    width: 95%;
     margin: 70px auto;
-    border-bottom: 3px solid #dcd0e7;
+    border-bottom: 1px solid #dcd0e7;
+}
+
+.hr_second {
+    display: block;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #dcd0e7;
 }
 
 .members {
     position: relative;
-    padding-top: 10px;
+    padding-top: 5px;
+    margin-top: -20px;
     vertical-align: middle;
+    padding-bottom: 25px;
 }
 
 .members_img {
@@ -268,14 +276,17 @@ main {
     left: 130px;
     top: 40px;
 }
+
 .h4_2 {
     left: 130px;
     top: 30px;
 }
+
 .h4_3 {
     left: 130px;
     top: 20px;
 }
+
 .h4_4 {
     left: 130px;
     top: 10px;
@@ -285,14 +296,17 @@ main {
     left: -10px;
     top: 80px;
 }
+
 .p_2 {
     left: -70px;
     top: 70px;
 }
+
 .p_3 {
     left: -43px;
     top: 60px;
 }
+
 .p_4 {
     left: -42px;
     top: 50px;
