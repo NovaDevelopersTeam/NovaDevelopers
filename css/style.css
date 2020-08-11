@@ -1,0 +1,193 @@
+* {
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url("../images/7.jpg");
+    background-size: 1400px;
+    color: white;
+}
+
+.tools_bar_item {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav.tools_bar {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    cursor: context-menu;
+}
+
+.tools_bar_link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.tools_bar_link:hover {
+    color: rgba(255, 255, 255, 1);
+    transition: color 0.3ms ease-in-out;
+}
+
+.first_header {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: 25px;
+    left: 60px;
+    color: white;
+}
+
+.first_header:hover {
+    border-bottom: 2px white solid;
+}
+
+.header_foot {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.second_header {
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.third_header {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.button_link {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header_button {
+    background-color: rgb(60, 173, 212);
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    border-style: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    box-shadow: 4px 6px 4px #1a1111;
+}
+
+.header_button:hover {
+    background-color: rgb(79, 190, 228);
+}
+
+.signup_button {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 90px;
+    height: 35px;
+    border-radius: 50px;
+    border-style: none;
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup_button a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 0px;
+}
+
+.main_head {
+    background-color: #dcd0e7;
+    color: #474747;
+    text-align: center;
+}
+
+.fourth_header {
+    padding-top: 50px;
+}
+
+.facility {
+    display: flex;
+    justify-content: center;
+}
+
+.first_article,
+.second_article,
+.third_article {
+    width: 27%;
+    height: 400px;
+    background-color: white;
+    border: 1px solid rgba(144, 144, 144, .3);
+    border-radius: 4px;
+}
+
+.fourth_header {
+    font-size: 45px;
+    padding-top: 80px;
+    margin-bottom: 15px;
+}
+
+.fifth_header {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.shuttle_icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(238, 130, 238, 0.616);
+}
+
+.desktop_icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(74, 214, 18, 0.733);
+}
+
+.cloud_icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(39, 199, 199, 0.815);
+}
+
+.fas {
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.article_icon {
+    margin: 20px auto;
+}
+
+.article_header {
+    color: #858585;
+    text-align: center;
+    width: 130px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.article_p {
+    color: #525252;
+    text-align: center;
+    font-size: 15px;
+    width: 330px;
+    line-height: 20px;
+}
