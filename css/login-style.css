@@ -14,14 +14,18 @@ h2 {
     margin-right: 60px;
 }
 
-.login_img {
-    width: 125px;
-    height: 125px;
-    margin: 20px auto;
-    margin-right: 60px;
-    margin-top: 30px;
-    border-radius: 50%;
+.login_ico {
     position: relative;
+    bottom: 10px;
+    left: 0px;
+}
+
+.login_ico_div {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #5a00ea;
+    margin: 60px 0px 20px 600px;
 }
 
 main {
@@ -74,14 +78,44 @@ input[type="submit"] {
     margin: 30px 60px 30px 0;
 }
 
+input[type="name"]:focus {
+    border-style: none;
+    outline: none;
+    border: 2px solid #d100fb;
+}
+
+input[type="password"]:focus {
+    border-style: none;
+    outline: none;
+    border: 2px solid #d100fb;
+}
+
+input[type="name"]:focus + .user_ico {
+    right: 445px;
+    color: #5a00ea;
+}
+
+input[type="password"]:focus + .lock_ico {
+   right: 445px;
+   color: #5a00ea;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(left, #5a00ea, #d100fb);
+}
+
+input[type="submit"]:focus {
+    border-style: none;
+    outline: none;
+}
+
 .forget {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
     margin-top: 20px;
     font-family: sans-serif;
 }
-
-
 
 p {
     text-align: center;
