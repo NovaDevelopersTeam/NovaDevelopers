@@ -1,0 +1,20 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-image: url("../images/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 700px;
+}
