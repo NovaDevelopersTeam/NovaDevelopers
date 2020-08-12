@@ -107,3 +107,10 @@ p {
     right: 440px;
     color: #333333;
 }
+
+.create::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f101";
+    margin-left: 5px;
+}

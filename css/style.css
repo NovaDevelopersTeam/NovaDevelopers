@@ -79,7 +79,6 @@ nav.tools_bar {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 200px;
-    box-shadow: 4px 6px 4px #1a1111;
 }
 
 .main_button {
@@ -94,8 +93,20 @@ nav.tools_bar {
 }
 
 .header_button:hover,
+input[type="submit"]:hover {
+    background-color: rgb(79, 190, 228);
+    box-shadow: 4px 6px 4px #555050;
+}
+
 .main_button:hover {
     background-color: rgb(79, 190, 228);
+}
+
+.header_button:active,
+.main_button:active,
+input[type="submit"] {
+    border-style: none;
+    border: none;
 }
 
 .signup_button {
