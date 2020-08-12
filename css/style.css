@@ -352,7 +352,7 @@ main {
 
 .form_p {
     color: white;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     font-size: 20px;
     font-weight: 100;
 }
@@ -392,13 +392,16 @@ input[type="email"] {
 }
 
 textarea {
-    width: 565px;
+    width: 544px;
     height: 150px;
     position: relative;
     border: 1px solid whitesmoke;
     top: 40px;
     border-radius: 5px;
     right: 0px;
+    color: #525252;
+    padding: 15px;
+    font-size: 20px;
 }
 
 .info {
