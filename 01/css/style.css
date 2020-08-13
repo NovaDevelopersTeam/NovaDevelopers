@@ -126,6 +126,11 @@ nav.tools_bar {
     text-decoration: none;
 }
 
+.signup_button:focus {
+    border-style: none;
+    outline: none;
+}
+
 /*main _ head part _ code */
 
 main {
