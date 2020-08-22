@@ -1,48 +1,84 @@
+<!-- main html file -->
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/MediaQueries.css">
-    <title>NovaDevelopers</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/MediaQueries.css" rel="stylesheet">
+        <title>
+            NovaDevelopers
+        </title>
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <section class="menu">
-            <nav>
-                <img src="images/logo.png" alt="" class="logo_img">
-                    <button class="dropdown_btn">
-                        MENU
-                    </button>
-                <div class="dropdown_item">
-                    <a href="#" class="tools_bar_a">HOME</a>
-                    <a href="#" class="tools_bar_a">ABOUT US</a>
-                    <a href="#" class="tools_bar_a">SERVICES</a>
-                    <a href="#" class="tools_bar_a">PRODUCTS</a>
-                    <a href="#" class="tools_bar_a">BLOG</a>
-                    <a href="#" class="tools_bar_a">CONTACT</a>
-                    <a href="#" class="tools_bar_a">DROPDOWN</a>
+        <!-- header start -->
+        
+        <header>
+            
+            <!-- menu start -->
+
+            <section class="menu">
+                <nav class="tools-bar-nav">
+                    <img alt="" class="logo-img" src="images/logo.png" class="tools-bar-img">
+                    <ul class="tools-bar-ul">
+                        <li class="tools-bar-li">HOME</li>
+                        <li class="tools-bar-li">ABOUT US</li>
+                        <li class="tools-bar-li">SERVICES</li>
+                        <li class="tools-bar-li">PRODUCTS</li>
+                        <li class="tools-bar-li">BLOG</li>
+                        <li class="tools-bar-li">CONTACT</li>
+                        <li class="tools-bar-li">DROPDOWN</li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- menu end -->
+
+            <!-- dropdown start -->
+
+            <section class="dropdown">
+                <button class="dropdown-btn">MENU</button>
+                <div class="dropdown-a-counteiner">
+                    <a class="dropdown-a">HOME</a>
+                    <a class="dropdown-a">ABOUT US</a>
+                    <a class="dropdown-a">SERVICES</a>
+                    <a class="dropdown-a">PRODUCTS</a>
+                    <a class="dropdown-a">BLOG</a>
+                    <a class="dropdown-a">CONTACT</a>
+                    <a class="dropdown-a">DROPDOWN</a>
                 </div>
-            </nav>
+            </section> 
+            
+            <!-- dropdown end -->
+
+            <!-- banner start -->
+
             <section class="banner">
-                <img src="images/banner-img.png" alt="">
-                <div class="banner_text">
-                    <h1>
+                <img alt="" src="images/banner-img.png" class="banner-img">
+                <div class="banner-text">
+                    <h1 class="banner-h1">
                         Improved
                         Production level
                         with Robotics
                     </h1>
-                    <p>EVERYONE WANTS THE INNOVATION THROUGH ROBOTICS</p>
-                    <button>VIEW DETAILS</button>
+                    <p class="banner-p">
+                        EVERYONE WANTS THE INNOVATION THROUGH ROBOTICS
+                    </p>
+                    <button class="banner-btn">
+                        VIEW DETAILS
+                    </button>
                 </div>
             </section>
-        </section>
-    </header>
 
-</body>
+            <!-- banner end -->
 
+        </header>
+
+        <!-- header end -->
+
+    </body>
 </html>

@@ -1,26 +1,97 @@
+/* main css file */
+
 * {
     margin: auto;
 }
 
 /* header start */
 
-.tools_bar_a {
+header {
+    background-color: rgb(138, 144, 255);
+}
+
+/* menu start */
+
+.logo-img {
+    position: relative;
+    right: 200px;
+}
+
+.tools-bar-ul {
+    margin: 0px 20px 0px 0px;
+    padding: 10px 0px;
+}
+
+.tools-bar-li {
     list-style: none;
     display: inline-block;
     color: white;
-    font-size: 14px;
-    margin: 0px 20px 0px 20px;
+    font-size: 15px;
+    margin: 0px 20px 0px 10px;
     padding: 0px;
-    text-decoration: none;
 }
 
 nav {
-    background-color: rgba(138, 144, 255, .0);
+    background-color: rgba(138, 144, 255, .01);
     position: fixed;
     width: 100%;
     display: flex;
-    margin-top: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
+
+/* menu start */
+
+/* dropdown start */
+
+.dropdown {
+    display: none;
+    position: relative;
+
+}
+
+.dropdown-btn {
+    background-color: white;
+    color: rgba(138, 144, 255, .9);
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    bottom: 40px;
+}
+
+.dropdown-a {
+    color: white;
+    font-size: 14px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-a-counteiner {
+    display: none;
+    position: absolute;
+    background-color: rgba(138, 144, 255, .9);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .9);
+    min-width: 160px;
+}
+
+.dropdown-a:hover {
+    background-color: white;
+} 
+
+.dropdown:hover .dropdown-a-counteiner {
+    display: block;
+}
+
+.dropdown:hover .dropdown-btn {
+    background-color: white;
+}
+
+/* dropdown end */
+
+/* banner start */
 
 .banner {
     background-image: url("../images/banner-bg.jpg");
@@ -29,12 +100,6 @@ nav {
     height: 600px;
 }
 
-.dropdown_btn {
-    background-color: white;
-    color: rgba(138, 144, 255, .9);
-    padding: 10px;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    display: none;
-}
+/* banner end */
+
+/* header end */
