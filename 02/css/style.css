@@ -5,6 +5,10 @@
     z-index: 2;
 }
 
+body {
+    font-family: sans-serif, "Poppins";
+}
+
 /* header start */
 
 header {
@@ -79,10 +83,12 @@ nav {
 .dropdown-a:hover {
     background-color: white;
     color: rgba(138, 144, 255, 1);
+    font-weight: 600;
 } 
 
 .dropdown:hover .dropdown-a-counteiner {
     display: block;
+    border: 1px solid rgba(255, 255, 255, .2);
 }
 
 .dropdown:hover .dropdown-btn {
@@ -99,12 +105,54 @@ nav {
     background-image: url("../images/banner-bg.jpg");
     width: 100%;
     background-repeat: round;
-    height: 600px;
+    height: 700px;
     z-index: -20;
 }
 
 .banner-img {
     z-index: 1;
+}
+
+.banner-item {
+    position: relative;
+    bottom: 250px;
+}
+
+.banner-h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.banner-p {
+    color: white;
+    font-size: 15px;
+}
+
+.banner-text {
+    position: relative;
+    margin: 0px 0px 20px 80px;
+}
+
+.banner-btn {
+    background-color: white;
+    border: none;
+    outline: none;
+    color: rgb(138, 144, 255);
+    position: relative;
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.banner-btn:hover {
+    padding: 14px 19px;
+    transition: color 0.5ms ease;
+    background-color: rgb(138, 144, 255);
+    color: white;
+    border: solid 1px white;
 }
 
 /* banner end */
