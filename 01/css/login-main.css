@@ -1,150 +1,151 @@
 * {
-    margin: auto;
+  margin: auto;
 }
 
 body {
-    background-image: url("../images/5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
-    font-family: sans-serif;
-    color: white;
-    margin-right: 60px;
+  font-family: sans-serif;
+  color: white;
+  margin-right: 60px;
 }
 
 .login_ico {
-    position: relative;
-    bottom: 10px;
-    left: 0px;
+  position: relative;
+  bottom: 10px;
+  left: 0px;
 }
 
 .login_ico_div {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: #5a00ea;
-    margin: 60px 0px 20px 600px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #5a00ea;
+  margin: 60px 0px 20px 600px;
 }
 
 main {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 input[type="name"] {
-    border: solid 1px white;
-    margin: 15px 0 10px 0;
-    font-weight: 600;
-    background: #fff;
-    height: 50px;
-    border-radius: 25px;
-    width: 350px;
-    position: relative;
-    top: 20px;
-    right: 20px;
-    padding: 0 30px 0 53px;
-    font-size: 15px;
-    line-height: 1.2;
-    color: #333333;
+  border: solid 1px white;
+  margin: 15px 0 10px 0;
+  font-weight: 600;
+  background: #fff;
+  height: 50px;
+  border-radius: 25px;
+  width: 350px;
+  position: relative;
+  top: 20px;
+  right: 20px;
+  padding: 0 30px 0 53px;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #333333;
 }
 
 input[type="password"] {
-    border: solid 1px white;
-    margin: 10px 0 30px 0;
-    font-weight: 600;
-    background: #fff;
-    height: 50px;
-    border-radius: 25px;
-    width: 350px;
-    position: relative;
-    top: 20px;
-    right: 20px;
-    padding: 0 30px 0 53px;
-    font-size: 15px;
-    line-height: 1.2;
-    color: #333333;
+  border: solid 1px white;
+  margin: 10px 0 30px 0;
+  font-weight: 600;
+  background: #fff;
+  height: 50px;
+  border-radius: 25px;
+  width: 350px;
+  position: relative;
+  top: 20px;
+  right: 20px;
+  padding: 0 30px 0 53px;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #333333;
 }
 
 input[type="submit"] {
-    width: 370px;
-    height: 50px;
-    background-color: #333333;
-    border: 1px solid #333333;
-    border-radius: 25px;
-    color: white;
-    font-size: 20px;
-    margin: 30px 60px 30px 0;
+  width: 370px;
+  height: 50px;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  margin: 30px 60px 30px 0;
 }
 
 input[type="name"]:focus {
-    border-style: none;
-    outline: none;
-    border: 2px solid #d100fb;
+  border-style: none;
+  outline: none;
+  border: 2px solid #d100fb;
 }
 
 input[type="password"]:focus {
-    border-style: none;
-    outline: none;
-    border: 2px solid #d100fb;
+  border-style: none;
+  outline: none;
+  border: 2px solid #d100fb;
 }
 
 input[type="name"]:focus + .user_ico {
-    right: 445px;
-    color: #5a00ea;
+  right: 445px;
+  color: #5a00ea;
 }
 
 input[type="password"]:focus + .lock_ico {
-   right: 445px;
-   color: #5a00ea;
+  right: 445px;
+  color: #5a00ea;
 }
 
 input[type="submit"]:hover {
-    cursor: pointer;
-    background-image: -webkit-linear-gradient(left, #5a00ea, #d100fb);
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(left, #5a00ea, #d100fb);
 }
 
 input[type="submit"]:focus {
-    border-style: none;
-    outline: none;
+  border-style: none;
+  outline: none;
 }
 
 .forget {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-    margin-top: 20px;
-    font-family: sans-serif;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 20px;
+  font-family: sans-serif;
 }
 
 p {
-    text-align: center;
-    margin-right: 60px;
+  text-align: center;
+  margin-right: 60px;
 }
 
 .forget:hover,
 .create:hover {
-    color: rgba(255, 255, 255, 1);
+  color: white;
 }
 
 .create {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-    position: relative;
-    bottom: -100px;
-    font-family: sans-serif;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  bottom: -100px;
+  font-family: sans-serif;
 }
 
 .fas {
-    position: relative;
-    top: 20px;
-    right: 440px;
-    color: #333333;
+  position: relative;
+  top: 20px;
+  right: 440px;
+  color: #333333;
 }
 
 .create::after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f101";
-    margin-left: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f101";
+  margin-left: 5px;
 }
+/*# sourceMappingURL=login-main.css.map */
