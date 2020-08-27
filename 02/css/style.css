@@ -84,7 +84,7 @@ nav {
     background-color: white;
     color: rgba(138, 144, 255, 1);
     font-weight: 600;
-} 
+}
 
 .dropdown:hover .dropdown-a-counteiner {
     display: block;
