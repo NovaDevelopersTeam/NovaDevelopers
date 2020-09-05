@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "DancingScript-Regular";
+    src: url(../fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: "JosefinSans-Regular";
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Regular";
+    src: url(../fonts/Nunito-Regular.ttf);
+}
+
+
+$color-dark: #262626;
+$color-black: #000;
+$color-primary: #d3ab55;
+$color-secondary : #bbb;
+
+
+$font-dancingScript: "DancingScript-Regular",
+cursive;
+$font-josefinSans: "JosefinSans-Regular",
+sans-serif;
+$font-nunito: "Nunito-Regular",
+sans-serif;
+
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin text-styles {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@mixin centering($topValue) {
+    position: relative;
+    top: $topValue;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $color-dark;
+}

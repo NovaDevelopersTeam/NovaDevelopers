@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "DancingScript-Regular";
+  src: url(../fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: "JosefinSans-Regular";
+  src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #262626;
+}
+
+.change-lan-btn {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 80px;
+  height: 30px;
+  padding-top: 3px;
+  font-family: "JosefinSans-Regular", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #d3ab55;
+  background-color: transparent;
+  border: 1px solid #d3ab55;
+  cursor: pointer;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.change-lan-btn:hover {
+  background-color: #d3ab55;
+  color: #262626;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 80px;
+  color: #d3ab55;
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  border: 3px solid #d3ab55;
+  border-radius: 50%;
+}
+
+.brand-h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 50px;
+  color: #bbb;
+}
+
+.brand-p {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "JosefinSans-Regular", sans-serif;
+  font-size: 18px;
+  color: #bbb;
+}
+
+.banner-h1 {
+  font-family: "DancingScript-Regular", cursive;
+  font-size: 100px;
+  font-weight: 300;
+  color: #d3ab55;
+  margin-bottom: 20px;
+}
+
+.banner-p {
+  font-family: "JosefinSans-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: #bbb;
+  margin-bottom: 50px;
+}
+
+.main-btn {
+  width: 170px;
+  height: 45px;
+  font-family: "JosefinSans-Regular", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #d3ab55;
+  background-color: transparent;
+  border: 1px solid #d3ab55;
+  cursor: pointer;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.main-btn:hover {
+  background-color: #d3ab55;
+  color: #262626;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.6))), url(../images/bg.jpeg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../images/bg.jpeg) center no-repeat;
+  background-size: cover;
+}
+
+header .header-brand {
+  position: relative;
+  top: 16%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-banner {
+  position: relative;
+  top: 38%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
