@@ -21,9 +21,14 @@ $font-Sahel-FD: "Sahel-FD",
 arial;
 
 
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin text-styles {
     font-weight: 300;
-    letter-spacing: 2px;
     text-transform: uppercase;
 }
 

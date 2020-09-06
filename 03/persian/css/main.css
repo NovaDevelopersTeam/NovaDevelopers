@@ -1,16 +1,11 @@
 @font-face {
-  font-family: "DancingScript-Regular";
-  src: url(../fonts/DancingScript-Regular.ttf);
+  font-family: "IranNastaliq";
+  src: url(../fonts/IranNastaliq.ttf);
 }
 
 @font-face {
-  font-family: "JosefinSans-Regular";
-  src: url(../fonts/JosefinSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Nunito-Regular";
-  src: url(../fonts/Nunito-Regular.ttf);
+  font-family: "Sahel-FD";
+  src: url(../fonts/Sahel-FD.ttf);
 }
 
 * {
@@ -25,12 +20,14 @@ body {
 
 .change-lan-btn {
   position: relative;
+  border: none;
+  outline: none;
   top: 30px;
-  left: 30px;
+  right: 30px;
   width: 80px;
   height: 30px;
-  padding-top: 3px;
-  font-family: "JosefinSans-Regular", sans-serif;
+  padding-top: 3.5px;
+  font-family: "Sahel-FD", arial;
   font-size: 15px;
   text-transform: uppercase;
   color: #d3ab55;
@@ -62,52 +59,53 @@ body {
   color: #d3ab55;
   width: 120px;
   height: 120px;
-  margin-right: 20px;
+  margin-left: 20px;
   border: 3px solid #d3ab55;
   border-radius: 50%;
 }
 
 .brand-h1 {
   font-weight: 300;
-  letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: "Nunito-Regular", sans-serif;
+  font-family: "Sahel-FD", arial;
   font-size: 50px;
   color: #bbb;
 }
 
 .brand-p {
   font-weight: 300;
-  letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: "JosefinSans-Regular", sans-serif;
-  font-size: 18px;
+  font-family: "Sahel-FD", arial;
+  font-size: 20px;
   color: #bbb;
 }
 
 .banner-h1 {
-  font-family: "DancingScript-Regular", cursive;
-  font-size: 100px;
+  font-family: "IranNastaliq", arial;
+  font-size: 120px;
   font-weight: 300;
   color: #d3ab55;
-  margin-bottom: 20px;
+  margin-bottom: -30px;
 }
 
 .banner-p {
-  font-family: "JosefinSans-Regular", sans-serif;
-  font-size: 60px;
+  font-family: "Sahel-FD", arial;
+  font-size: 40px;
   font-weight: 300;
   color: #bbb;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .main-btn {
+  border: none;
+  outline: none;
   width: 170px;
   height: 45px;
-  font-family: "JosefinSans-Regular", sans-serif;
-  font-size: 14px;
+  font-family: "Sahel-FD", arial;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 4px;
   text-transform: uppercase;
-  letter-spacing: 1px;
   color: #d3ab55;
   background-color: transparent;
   border: 1px solid #d3ab55;
@@ -151,7 +149,7 @@ header .header-brand {
 
 header .header-banner {
   position: relative;
-  top: 38%;
+  top: 35%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
